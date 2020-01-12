@@ -1,0 +1,25 @@
+{
+  "name": "Cloud-Hosted-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DetailZZZ/Cloud-Hosted-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DetailZZZ/Cloud-Hosted-Bot/issues"
+  },
+  "homepage": "https://github.com/DetailZZZ/Cloud-Hosted-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ms": "^2.1.2",
+    "ytdl-core": "^1.0.6"
+  }
+}
