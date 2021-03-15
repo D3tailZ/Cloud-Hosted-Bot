@@ -9,7 +9,7 @@ var bot = new Discord.Client();
 bot.on('ready', () => {
     console.log('Im online! ' + version);
 
-    bot.user.setActivity("your shitty opinions", {
+    bot.user.setActivity("100 gecs", {
         type: "LISTENING"
     });
 });
