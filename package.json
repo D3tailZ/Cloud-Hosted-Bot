@@ -1,7 +1,7 @@
 {
   "name": "cloud-hosted-bot",
   "version": "1.0.0",
-  "description": "Discord bot made by detailz"
+  "description": "Discord bot made by detailz",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
