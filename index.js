@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 const YTDL = require("ytdl-core")
 const ms = require("ms")
 
-const TOKEN = "NjY1NDQ5MDM2MTQwMTE4MDE2.Xhlx3g.Xs2ifCMFMZYPgqdY3WnjTRWnSxI";
+const TOKEN = "";
 const PREFIX = "!!"
 var bot = new Discord.Client();
 bot.on('ready', () => {
