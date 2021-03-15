@@ -88,7 +88,7 @@ bot.on("message", function (message) {
             message.channel.send(embed);
             break;
         case "play":
-            if (args[1] == (null)) {
+            if (args[1] == (null) || !args[1].contains("youtube.com")) {
                 var embed = new Discord.RichEmbed()
                     .setTitle("❌ Please provide a link")
                     .setAuthor(message.author.username, message.author.avatarURL)
@@ -112,13 +112,11 @@ bot.on("message", function (message) {
             var server = servers[message.guild.id];
 
             server.queue.push(args[1]);
-            if (!server.queue.push(args[0])) {
             var embed = new Discord.RichEmbed()
                 .setTitle("Added to queue")
                 .setAuthor(message.author.username, message.author.avatarURL)
                 .setColor(0x00FFFF)
             message.channel.send(embed);
-            }
 
             if (!message.guild.voiceConnection) message.member.voiceChannel.join().then(function (connection) {
                 console.log("Connection exists");
