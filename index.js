@@ -1,8 +1,5 @@
 var version = 'Version 8.0';
 const Discord = require("discord.js");
-const pathToFfmpeg = require('ffmpeg-static');
-const ffmpegPath = require('ffmpeg-binaries');
-spawn(ffmpegPath, ['-i', 'video.mkv', 'video.mp4']);
 const YTDL = require("ytdl-core");
 const ms = require("ms");
 
