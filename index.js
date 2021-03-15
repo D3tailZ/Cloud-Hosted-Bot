@@ -1,9 +1,8 @@
 var version = 'Version 8.0';
-const Discord = require("discord.js")
-const YTDL = require("ytdl-core")
-const ms = require("ms")
+const Discord = require("discord.js");
+const YTDL = require("ytdl-core");
+const ms = require("ms");
 
-const TOKEN = "";
 const PREFIX = "!!"
 var bot = new Discord.Client();
 bot.on('ready', () => {
@@ -77,7 +76,7 @@ bot.on("message", function (message) {
                 .addField("!!ping", "Play ping pong cuz why not", true)
                 .addField("!!8ball", "Play 8ball cuz why not", true)
                 .addField("!!info", "Info about bot", true)
-                .addField("!!play", "Plays songs tf u think bruh", true)
+                .addField("!!play", "Plays songs what u think", true)
                 .addField("!!purge", "Purges the chat by set amount", true)
                 .addField("!!mute", "Mutes a specified user", true)
                 .addField("!!kick", "Kicks a specified user", true)
@@ -270,4 +269,4 @@ bot.on("message", function (message) {
     }
 });
 
-bot.login(TOKEN);
+bot.login(process.env.token);

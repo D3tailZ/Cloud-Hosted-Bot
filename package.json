@@ -1,5 +1,5 @@
 {
-  "name": "Cloud-Hosted-Bot",
+  "name": "cloud-hosted-bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,17 +10,29 @@
     "url": "git+https://github.com/DetailZZZ/Cloud-Hosted-Bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Detailz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DetailZZZ/Cloud-Hosted-Bot/issues"
   },
   "homepage": "https://github.com/DetailZZZ/Cloud-Hosted-Bot#readme",
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "@discordjs/opus": "^0.4.0",
+    "chalk": "^4.1.0",
+    "discord-player": "^3.4.0",
+    "discord-ytdl-core": "^5.0.1",
+    "discord.js": "^11.6.4",
+    "ffmpeg": "^0.0.4",
+    "jsdom": "^16.5.1",
+    "merge-options": "^3.0.4",
     "ms": "^2.1.2",
-    "ytdl-core": "^1.0.6"
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "reverbnation-scraper": "^2.0.0",
+    "soundcloud-scraper": "^4.0.3",
+    "spotify-url-info": "^2.2.0",
+    "youtube-sr": "^4.0.3",
+    "ytdl-core": "^4.5.0"
   },
-  "devDependencies": {},
-  "description": ""
+  "description": "Discord bot made by detailz"
 }
