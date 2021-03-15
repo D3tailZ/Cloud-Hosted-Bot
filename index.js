@@ -112,11 +112,13 @@ bot.on("message", function (message) {
             var server = servers[message.guild.id];
 
             server.queue.push(args[1]);
+            if (!server.queue.push(args[0])) {
             var embed = new Discord.RichEmbed()
                 .setTitle("Added to queue")
                 .setAuthor(message.author.username, message.author.avatarURL)
                 .setColor(0x00FFFF)
             message.channel.send(embed);
+            }
 
             if (!message.guild.voiceConnection) message.member.voiceChannel.join().then(function (connection) {
                 console.log("Connection exists");
