@@ -1,6 +1,6 @@
 var version = 'Version 8.0';
 const Discord = require("discord.js");
-//var pathToFfmpeg = require('ffmpeg-static');
+const pathToFfmpeg = require('ffmpeg-static');
 const YTDL = require("ytdl-core");
 const ms = require("ms");
 
