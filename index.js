@@ -62,7 +62,10 @@ bot.on("message", function (message) {
             else var embed = new Discord.RichEmbed()
                 .setDescription("❌ You must include a question!")
                 .setColor(0x00FFFF)
-            message.channel.send(embed);
+            message.channel.send(embed).catch(err => {
+                message.reply("Green is the sus!");
+                console.log(err);
+            })
             break;
         case "help":
             var embed = new Discord.RichEmbed()
