@@ -63,7 +63,6 @@ bot.on("message", function (message) {
                 .setDescription("❌ You must include a question!")
                 .setColor(0x00FFFF)
             message.channel.send(embed).catch(err => {
-                message.reply("Green is the sus!");
                 console.log(err);
             })
             break;
