@@ -1,7 +1,7 @@
 var version = 'Version 8.0';
 const Discord = require("discord.js");
-const Ffmpeg = require('ffmpeg-static');
 const YTDL = require("ytdl-core");
+const path = require('path')
 const ms = require("ms");
 
 const PREFIX = "!!"
