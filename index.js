@@ -90,7 +90,7 @@ bot.on("message", function (message) {
             message.channel.send(embed);
             break;
         case "play":
-            if (args[1] == (null) || !args[1].includes('youtube.com') || !args[1].includes('youtu.be')) {
+            if (args[1] == (null) || !args[1].includes('youtube.com')) {
                 var embed = new Discord.RichEmbed()
                     .setTitle("❌ Please provide a link")
                     .setAuthor(message.author.username, message.author.avatarURL)
