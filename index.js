@@ -42,7 +42,7 @@ bot.on("message", function (message) {
 
     if (!message.content.startsWith(PREFIX)) return;
 
-    let args = message.content.substring(PREFIX.length).split(" ");
+    let args = message.content.toLowerCase().substring(PREFIX.length).split(" ");
 
     switch (args[0]) {
         case "ping":
