@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/DetailZZZ/Cloud-Hosted-Bot#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.4.0",
+    "@discordjs/opus": "^0.8.0",
     "chalk": "^4.1.0",
     "discord-player": "^3.4.0",
     "discord-ytdl-core": "^5.0.1",
